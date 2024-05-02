@@ -98,6 +98,8 @@ public class WeatherRepository : IWeatherRepository
 
             if (redisResult.HasValue)
             {
+                _logger.LogInformation($"Value found in cache with key: {key}");
+
 #pragma warning disable CS8603 // Possible null reference return.
                 return JsonSerializer.Deserialize<WeatherForecast>(redisResult.ToString(), new JsonSerializerOptions { PropertyNameCaseInsensitive = true });
 #pragma warning restore CS8603 // Possible null reference return.
