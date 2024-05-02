@@ -7,6 +7,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DotnetEight", "DotnetEight"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WeatherApi", "NetCore\WeatherApi\WeatherApi.csproj", "{7397812D-DB6E-4F89-8BED-AEE4337D0816}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FullNetFramework", "FullNetFramework", "{2A499742-FB0D-44CA-A623-6B1A09C702B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoWebApi", "DemoWebApi\DemoWebApi.csproj", "{4295E9D7-5729-446A-B9BD-6E3E2A973734}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,12 +21,17 @@ Global
 		{7397812D-DB6E-4F89-8BED-AEE4337D0816}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7397812D-DB6E-4F89-8BED-AEE4337D0816}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7397812D-DB6E-4F89-8BED-AEE4337D0816}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4295E9D7-5729-446A-B9BD-6E3E2A973734}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4295E9D7-5729-446A-B9BD-6E3E2A973734}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4295E9D7-5729-446A-B9BD-6E3E2A973734}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4295E9D7-5729-446A-B9BD-6E3E2A973734}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{7397812D-DB6E-4F89-8BED-AEE4337D0816} = {AE01E167-E25E-40E1-A3A6-198E2E52381F}
+		{4295E9D7-5729-446A-B9BD-6E3E2A973734} = {2A499742-FB0D-44CA-A623-6B1A09C702B2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {831811DB-352B-461F-979C-DE888625FF34}
