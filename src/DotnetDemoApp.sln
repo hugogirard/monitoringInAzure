@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DotnetEight", "DotnetEight", "{AE01E167-E25E-40E1-A3A6-198E2E52381F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WeatherApi", "NetCore\WeatherApi\WeatherApi.csproj", "{7397812D-DB6E-4F89-8BED-AEE4337D0816}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7397812D-DB6E-4F89-8BED-AEE4337D0816}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7397812D-DB6E-4F89-8BED-AEE4337D0816}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7397812D-DB6E-4F89-8BED-AEE4337D0816}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7397812D-DB6E-4F89-8BED-AEE4337D0816}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7397812D-DB6E-4F89-8BED-AEE4337D0816} = {AE01E167-E25E-40E1-A3A6-198E2E52381F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {831811DB-352B-461F-979C-DE888625FF34}
+	EndGlobalSection
+EndGlobal
